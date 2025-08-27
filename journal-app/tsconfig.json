@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "moduleResolution": "bundler",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "allowJs": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "types": ["vite", "node"],
-    "jsx": "react-jsx"
-  }
+    "skipLibCheck": true
+  },
+  "include": ["src"]
 }
