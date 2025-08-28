@@ -71,12 +71,12 @@ const Home: React.FC = () => {
         <div className="w-full max-w-xl mx-auto bg-white dark:bg-gray-800 p-6 shadow-md rounded-md flex flex-col text-black dark:text-white">
           
           {/* 🌙 Toggle Button */}
-          <button
+          {/* <button
             onClick={() => setDarkMode((prev) => !prev)}
             className="self-end mb-4 bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-3 py-1 rounded"
           >
             {darkMode ? 'Light Mode' : 'Dark Mode'}
-          </button>
+          </button> */}
 
           <h1 className="text-3xl font-bold text-center mb-6">My Journal</h1>
 
